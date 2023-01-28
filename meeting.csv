@@ -1,0 +1,6 @@
+KHM006_2_PUND_30um_O-1D_after_3_1e7cycles.xls <— need 1e6
+KHM006_2_PV_30um_O_1D_after_1e7cycles.xls <— need 3 cycle data too
+Double check with them the definition of endurance and breakdown bcuz of your entries with 0 value.
+
+KHM005 double check with them the naming convention and what endurance/after_endurance means… 
+It seems endurance is 1e7 here

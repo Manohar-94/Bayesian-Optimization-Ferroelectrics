@@ -1,0 +1,29 @@
+program: src/main.py
+method: bayes
+metric:
+  goal: minimize
+  name: train loss
+parameters:
+  epochs:
+    values: [5000,6000,7000,8000,9000,10000]
+  kernel:
+    values: ["rbf"]
+  dim:
+    values: [2]
+  lr:
+    values: [1e1, 1e0, 1e-1, 1e-2]
+  lscale_1:
+    values: [0.1,0.5,1.0,5.0,10.0]
+  lscale_2:
+    values: [0.1,0.5,1.0,5.0,10.0]
+  lscale_3:
+    values: [0.1,0.5,1.0,5.0,10.0]
+  lscale_4:
+    values: [0.1,0.5,1.0,5.0,10.0]
+
+    
+
+
+
+
+  

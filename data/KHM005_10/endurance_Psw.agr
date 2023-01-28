@@ -1,0 +1,444 @@
+# Grace project file
+#
+@version 50122
+@page size 538, 538
+@page scroll 25%
+@page inout 5%
+@link page off
+@map font 0 to "Times-Roman", "Times-Roman"
+@map font 1 to "Times-Italic", "Times-Italic"
+@map font 2 to "Times-Bold", "Times-Bold"
+@map font 3 to "Times-BoldItalic", "Times-BoldItalic"
+@map font 4 to "Helvetica", "Helvetica"
+@map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
+@map font 6 to "Helvetica-Bold", "Helvetica-Bold"
+@map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
+@map font 8 to "Courier", "Courier"
+@map font 9 to "Courier-Oblique", "Courier-Oblique"
+@map font 10 to "Courier-Bold", "Courier-Bold"
+@map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
+@map font 12 to "Symbol", "Symbol"
+@map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (195, 18, 30), "sangre"
+@map color 3 to (3, 72, 161), "neptune"
+@map color 4 to (255, 176, 28), "pumpkin"
+@map color 5 to (2, 118, 8), "clover"
+@map color 6 to (1, 147, 176), "denim"
+@map color 7 to (156, 83, 0), "cocoa"
+@map color 8 to (148, 156, 1), "cumin"
+@map color 9 to (113, 4, 181), "berry"
+@map color 10 to (255, 0, 0), "red"
+@map color 11 to (255, 187, 0), "orange"
+@map color 12 to (255, 255, 0), "yellow"
+@map color 13 to (187, 255, 0), "melon"
+@map color 14 to (0, 255, 0), "green"
+@map color 15 to (0, 187, 187), "aqua"
+@map color 16 to (0, 0, 255), "blue"
+@map color 17 to (255, 0, 255), "magenta"
+@map color 18 to (255, 210, 210), "     reds"
+@map color 19 to (255, 206, 206), "Red19"
+@map color 20 to (255, 170, 170), "Red20"
+@map color 21 to (255, 135, 135), "Red21"
+@map color 22 to (255, 74, 74), "Red22"
+@map color 23 to (255, 0, 0), "Red23"
+@map color 24 to (225, 0, 0), "Red24"
+@map color 25 to (197, 0, 0), "Red25"
+@map color 26 to (142, 0, 0), "Red26"
+@map color 27 to (255, 236, 182), "   oranges"
+@map color 28 to (255, 223, 135), "Or28"
+@map color 29 to (255, 209, 84), "Or29"
+@map color 30 to (255, 200, 49), "Or30"
+@map color 31 to (255, 187, 0), "Or31"
+@map color 32 to (223, 164, 0), "Or32"
+@map color 33 to (155, 114, 0), "Or33"
+@map color 34 to (110, 81, 0), "Or34"
+@map color 35 to (66, 48, 0), "Or35"
+@map color 36 to (255, 255, 160), "   yellows"
+@map color 37 to (255, 255, 40), "Ye37"
+@map color 38 to (233, 233, 0), "Ye38"
+@map color 39 to (203, 203, 0), "Ye39"
+@map color 40 to (171, 171, 0), "Ye40"
+@map color 41 to (131, 131, 0), "Ye41"
+@map color 42 to (96, 96, 0), "Ye42"
+@map color 43 to (66, 66, 0), "Ye43"
+@map color 44 to (41, 41, 0), "Ye44"
+@map color 45 to (232, 255, 177), "    neons"
+@map color 46 to (206, 255, 90), "Ne46"
+@map color 47 to (179, 255, 0), "Ne47"
+@map color 48 to (163, 233, 0), "Ne48"
+@map color 49 to (137, 196, 0), "Ne49"
+@map color 50 to (109, 156, 0), "Ne50"
+@map color 51 to (81, 116, 0), "Ne51"
+@map color 52 to (55, 78, 0), "Ne52"
+@map color 53 to (25, 36, 0), "Ne53"
+@map color 54 to (195, 255, 195), "   greens"
+@map color 55 to (117, 255, 117), "Grn55"
+@map color 56 to (0, 255, 0), "Grn56"
+@map color 57 to (0, 228, 0), "Grn57"
+@map color 58 to (0, 193, 0), "Grn58"
+@map color 59 to (0, 161, 0), "Grn59"
+@map color 60 to (0, 128, 0), "Grn60"
+@map color 61 to (0, 85, 0), "Grn61"
+@map color 62 to (0, 40, 0), "Grn62"
+@map color 63 to (172, 255, 218), " turquoises"
+@map color 64 to (105, 255, 188), "Trq64"
+@map color 65 to (17, 255, 148), "Trq65"
+@map color 66 to (3, 241, 134), "Trq66"
+@map color 67 to (2, 208, 116), "Trq67"
+@map color 68 to (2, 165, 92), "Trq68"
+@map color 69 to (1, 126, 70), "Trq69"
+@map color 70 to (1, 90, 50), "Trq70"
+@map color 71 to (1, 48, 27), "Trq71"
+@map color 72 to (210, 249, 255), "   azures"
+@map color 73 to (150, 241, 255), "Az73"
+@map color 74 to (102, 235, 255), "Az74"
+@map color 75 to (4, 222, 255), "Az75"
+@map color 76 to (0, 202, 233), "Az76"
+@map color 77 to (0, 159, 183), "Az77"
+@map color 78 to (0, 122, 141), "Az78"
+@map color 79 to (0, 83, 96), "Az79"
+@map color 80 to (0, 61, 70), "Az80"
+@map color 81 to (177, 177, 255), "    blues"
+@map color 82 to (134, 134, 255), "Blu82"
+@map color 83 to (107, 107, 255), "Blu83"
+@map color 84 to (59, 59, 255), "Blu84"
+@map color 85 to (0, 0, 255), "Blu85"
+@map color 86 to (0, 0, 203), "Blu86"
+@map color 87 to (0, 0, 146), "Blu87"
+@map color 88 to (0, 0, 100), "Blu88"
+@map color 89 to (0, 0, 63), "Blu89"
+@map color 90 to (213, 192, 255), "   violets"
+@map color 91 to (180, 142, 255), "Vi91"
+@map color 92 to (155, 105, 255), "Vi92"
+@map color 93 to (120, 52, 255), "Vi93"
+@map color 94 to (85, 0, 255), "Vi94"
+@map color 95 to (73, 0, 218), "Vi95"
+@map color 96 to (53, 0, 158), "Vi96"
+@map color 97 to (37, 0, 110), "Vi97"
+@map color 98 to (21, 0, 63), "Vi98"
+@map color 99 to (255, 192, 233), "    pinks"
+@map color 100 to (255, 135, 213), "Pnk100"
+@map color 101 to (255, 89, 197), "Pnk101"
+@map color 102 to (255, 0, 166), "Pnk102"
+@map color 103 to (223, 0, 145), "Pnk103"
+@map color 104 to (176, 0, 114), "Pnk104"
+@map color 105 to (140, 0, 91), "Pnk105"
+@map color 106 to (103, 0, 67), "Pnk106"
+@map color 107 to (60, 0, 39), "Pnk107"
+@map color 108 to (255, 255, 255), "    grays"
+@map color 109 to (236, 236, 236), "Gry109"
+@map color 110 to (219, 219, 219), "Gry110"
+@map color 111 to (186, 186, 186), "Gry111"
+@map color 112 to (145, 145, 145), "Gry112"
+@map color 113 to (101, 101, 101), "Gry113"
+@map color 114 to (65, 65, 65), "Gry114"
+@map color 115 to (32, 32, 32), "-by dshoe"
+@reference date 0
+@date wrap off
+@date wrap year 1950
+@default linewidth 1.0
+@default linestyle 1
+@default color 1
+@default pattern 1
+@default font 0
+@default char size 1.000000
+@default symbol size 1.000000
+@default sformat "%.8g"
+@background color 0
+@page background fill on
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 4
+@timestamp char size 1.000000
+@timestamp def "Fri Jan 14 13:11:26 2022"
+@r0 off
+@link r0 to g0
+@r0 type above
+@r0 linestyle 1
+@r0 linewidth 1.0
+@r0 color 1
+@r0 line 0, 0, 0, 0
+@r1 off
+@link r1 to g0
+@r1 type above
+@r1 linestyle 1
+@r1 linewidth 1.0
+@r1 color 1
+@r1 line 0, 0, 0, 0
+@r2 off
+@link r2 to g0
+@r2 type above
+@r2 linestyle 1
+@r2 linewidth 1.0
+@r2 color 1
+@r2 line 0, 0, 0, 0
+@r3 off
+@link r3 to g0
+@r3 type above
+@r3 linestyle 1
+@r3 linewidth 1.0
+@r3 color 1
+@r3 line 0, 0, 0, 0
+@r4 off
+@link r4 to g0
+@r4 type above
+@r4 linestyle 1
+@r4 linewidth 1.0
+@r4 color 1
+@r4 line 0, 0, 0, 0
+@g0 on
+@g0 hidden false
+@g0 type XY
+@g0 stacked false
+@g0 bar hgap 0.000000
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@with g0
+@    world 1, 0, 100000000, 6
+@    stack world 0, 1, 0, 1
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.200000, 0.200000, 0.800000, 0.800000
+@    title ""
+@    title font 4
+@    title size 1.500000
+@    title color 1
+@    subtitle ""
+@    subtitle font 4
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Logarithmic
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label "No. of cycles"
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.000000
+@    xaxis  label font 4
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 100
+@    xaxis  tick minor ticks 9
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.000000
+@    xaxis  ticklabel font 4
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type none
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label "Psw (\xm\4C/cm\S2\N)"
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 1.000000
+@    yaxis  label font 4
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 1
+@    yaxis  tick minor ticks 1
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.000000
+@    yaxis  ticklabel font 4
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.55, 0.75
+@    legend box color 0
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 0
+@    legend box fill color 0
+@    legend box fill pattern 0
+@    legend font 4
+@    legend char size 1.000000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s0 hidden false
+@    s0 type xy
+@    s0 symbol 1
+@    s0 symbol size 0.500000
+@    s0 symbol color 1
+@    s0 symbol pattern 1
+@    s0 symbol fill color 1
+@    s0 symbol fill pattern 0
+@    s0 symbol linewidth 1.0
+@    s0 symbol linestyle 1
+@    s0 symbol char 65
+@    s0 symbol char font 4
+@    s0 symbol skip 0
+@    s0 line type 1
+@    s0 line linestyle 3
+@    s0 line linewidth 1.0
+@    s0 line color 1
+@    s0 line pattern 1
+@    s0 baseline type 0
+@    s0 baseline off
+@    s0 dropline off
+@    s0 fill type 0
+@    s0 fill rule 0
+@    s0 fill color 1
+@    s0 fill pattern 1
+@    s0 avalue off
+@    s0 avalue type 2
+@    s0 avalue char size 1.000000
+@    s0 avalue font 4
+@    s0 avalue color 1
+@    s0 avalue rot 0
+@    s0 avalue format general
+@    s0 avalue prec 3
+@    s0 avalue prepend ""
+@    s0 avalue append ""
+@    s0 avalue offset 0.000000 , 0.000000
+@    s0 errorbar on
+@    s0 errorbar place both
+@    s0 errorbar color 1
+@    s0 errorbar pattern 1
+@    s0 errorbar size 1.000000
+@    s0 errorbar linewidth 1.0
+@    s0 errorbar linestyle 1
+@    s0 errorbar riser linewidth 1.0
+@    s0 errorbar riser linestyle 1
+@    s0 errorbar riser clip off
+@    s0 errorbar riser clip length 0.100000
+@    s0 comment "D:/SLAC/Data/Keithley 4200/Manohar/20220113/KHM005_fla10/KHM005_fla10_PV_100um_O_1D_endurance_Psw_plot.csv"
+@    s0 legend  ""
+#QTGRACE_ADDITIONAL_PARAMETER: PLOT_ALPHA 255 255
+#QTGRACE_ADDITIONAL_PARAMETER: GRAPH_ALPHA G 0 {255;255;255;255;255;255;255}
+#QTGRACE_ADDITIONAL_PARAMETER: AXIS_ALPHA G 0 A 0 {255;255;255;255;255}
+#QTGRACE_ADDITIONAL_PARAMETER: AXIS_ALPHA G 0 A 1 {255;255;255;255;255}
+#QTGRACE_ADDITIONAL_PARAMETER: AXIS_ALPHA G 0 A 2 {255;255;255;255;255}
+#QTGRACE_ADDITIONAL_PARAMETER: AXIS_ALPHA G 0 A 3 {255;255;255;255;255}
+#QTGRACE_ADDITIONAL_PARAMETER: G 0 S 0 POLYGONEBASESET -1
+#QTGRACE_ADDITIONAL_PARAMETER: G 0 S 0 SHOWERRORBARINLEGEND 0
+#QTGRACE_ADDITIONAL_PARAMETER: G 0 S 0 CONNECTERRORBARS 0
+#QTGRACE_ADDITIONAL_PARAMETER: G 0 S 0 IGNOREINAUTOSCALE 0
+#QTGRACE_ADDITIONAL_PARAMETER: G 0 S 0 ALPHA_CHANNELS {255;255;255;255;255;255}
+#QTGRACE_ADDITIONAL_PARAMETER: G 0 S 1 POLYGONEBASESET -1
+#QTGRACE_ADDITIONAL_PARAMETER: G 0 S 1 SHOWERRORBARINLEGEND 0
+#QTGRACE_ADDITIONAL_PARAMETER: G 0 S 1 CONNECTERRORBARS 0
+#QTGRACE_ADDITIONAL_PARAMETER: G 0 S 1 IGNOREINAUTOSCALE 0
+#QTGRACE_ADDITIONAL_PARAMETER: G 0 S 1 ALPHA_CHANNELS {255;255;255;255;255;255}
+#QTGRACE_ADDITIONAL_PARAMETER: AUTOATTACH G 0 0 0
+#QTGRACE_ADDITIONAL_PARAMETER: TITLE_SHIFT G 0 0 0
+#QTGRACE_ADDITIONAL_PARAMETER: SUBTITLE_SHIFT G 0 0 0
+#QTGRACE_ADDITIONAL_PARAMETER: VIEWPORT_NAME 0 0 "Default"
+#QTGRACE_ADDITIONAL_PARAMETER: QTFONT_RESET 1
+#QTGRACE_ADDITIONAL_PARAMETER: QTFONT "Times New Roman,10,-1,5,50,0,0,0,0,0"
+#QTGRACE_ADDITIONAL_PARAMETER: QTFONT "Times New Roman,10,-1,5,50,1,0,0,0,0"
+#QTGRACE_ADDITIONAL_PARAMETER: QTFONT "Times New Roman,10,-1,5,75,0,0,0,0,0"
+#QTGRACE_ADDITIONAL_PARAMETER: QTFONT "Times New Roman,10,-1,5,75,1,0,0,0,0"
+#QTGRACE_ADDITIONAL_PARAMETER: QTFONT "Helvetica,10,-1,5,50,0,0,0,0,0"
+#QTGRACE_ADDITIONAL_PARAMETER: QTFONT "Helvetica,10,-1,5,50,1,0,0,0,0"
+#QTGRACE_ADDITIONAL_PARAMETER: QTFONT "Helvetica,10,-1,5,75,0,0,0,0,0"
+#QTGRACE_ADDITIONAL_PARAMETER: QTFONT "Helvetica,10,-1,5,75,1,0,0,0,0"
+#QTGRACE_ADDITIONAL_PARAMETER: QTFONT "Courier,10,-1,5,50,0,0,0,0,0"
+#QTGRACE_ADDITIONAL_PARAMETER: QTFONT "Courier,10,-1,5,50,1,0,0,0,0"
+#QTGRACE_ADDITIONAL_PARAMETER: QTFONT "Courier,10,-1,5,75,0,0,0,0,0"
+#QTGRACE_ADDITIONAL_PARAMETER: QTFONT "Courier,10,-1,5,75,1,0,0,0,0"
+#QTGRACE_ADDITIONAL_PARAMETER: QTFONT "Symbol,10,-1,5,50,0,0,0,0,0"
+#QTGRACE_ADDITIONAL_PARAMETER: QTFONT "Zapf Dingbats,10,-1,5,50,0,0,0,0,0"
+#QTGRACE_ADDITIONAL_PARAMETER: ENCODING "UTF-8"
+#QTGRACE_ADDITIONAL_PARAMETER: UNIVERSAL_FONT_SIZE_FACTOR 1.0000
+#QTGRACE_ADDITIONAL_PARAMETER: TIMESTAMP_PATH 0
+#QTGRACE_ADDITIONAL_PARAMETER: LINESTYLES 9 {2;2;2;2;2;4;4;6;6} {{0;1},{1;0},{1;3},{5;3},{7;3},{1;3;5;3},{1;3;7;3},{1;3;5;3;1;3},{5;3;1;3;5;3}}
+@target G0.S0
+@type xy
+0 4.164248
+1 4.245981
+57 4.552326
+3163 4.862425
+177828 5.048901
+10000000 5.242404
+&

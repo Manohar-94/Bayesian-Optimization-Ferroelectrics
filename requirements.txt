@@ -3,6 +3,8 @@ numpy
 torch
 botorch
 matplotlib
+adjustText
 plotly
 pandas
 scikit-learn
+wandb

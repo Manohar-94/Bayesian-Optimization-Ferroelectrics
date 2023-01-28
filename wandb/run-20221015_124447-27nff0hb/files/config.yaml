@@ -1,0 +1,62 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.21
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    m:
+    - 1: train loss
+      6:
+      - 3
+      7:
+      - 1
+    python_version: 3.9.12
+    start_time: 1665852287
+    t:
+      1:
+      - 1
+      - 5
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 53
+      - 55
+      3:
+      - 7
+      - 16
+      4: 3.9.12
+      5: 0.12.21
+      8:
+      - 5
+dim:
+  desc: null
+  value: 2
+epochs:
+  desc: null
+  value: 2000
+kernel:
+  desc: null
+  value: rbf
+lr:
+  desc: null
+  value: 0.1
+lscale_1:
+  desc: null
+  value: 100
+lscale_2:
+  desc: null
+  value: 100
+lscale_3:
+  desc: null
+  value: null
+lscale_4:
+  desc: null
+  value: null
+noise:
+  desc: null
+  value: 3.0
